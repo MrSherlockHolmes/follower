@@ -1,11 +1,5 @@
 var username = Scratch.INIT_DATA.LOGGED_IN_USER.model.username;
 
-user = prompt("Insert your username");
-
-if (username== user ){
-  username = prompt("Please enter your username.");
-}
-
 var numofpages = prompt("How many pages of followers does this user have?"); 
 var myFollowers = [];
 var page = 1;
